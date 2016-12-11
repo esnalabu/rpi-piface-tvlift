@@ -14,6 +14,7 @@ lowerpin = 0	# Pin used for lowering lift
 raiseduration = 3	# The time lift uses to reach to appropriate height
 lowerduration = 3	# The time lift uses from raised position to lowered position
 usb_status = 1		# Input of piface is active low, so this sets default usb_status to active indicating connected . I recommend connecting rpi/piface to a USB-port with no power when setting up to avoid raising an already raised lift.
+old_status = usb_status	# Make sure only the first actual change triggers the lift.
 
 # Define functions raising and lowering TV-lift
 def raise_lift():
