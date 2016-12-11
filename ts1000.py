@@ -1,4 +1,5 @@
 #!/bin/python3
+# Author: Anders Myren
 # This script is for controlling a Venset TV-lift using power from an USB-port as trigger. Add a pulldown resistor between inputpin and common/ground/0V.
 
 import pifacedigitalio as p
